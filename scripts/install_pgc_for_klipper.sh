@@ -1,5 +1,5 @@
 ### base variables
-PGC_FOR_KLIPPER_REPO="https://github.com/Kragrathea/pgcode"
+PGC_FOR_KLIPPER_REPO="https://hub.fastgit.xyz/Kragrathea/pgcode"
 PGC_DIR="${HOME}/pgcode"
 
 install_pgc_for_klipper(){

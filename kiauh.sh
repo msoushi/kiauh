@@ -47,12 +47,12 @@ INI_FILE=${HOME}/.kiauh.ini
 BACKUP_DIR=${HOME}/kiauh-backups
 
 ### set github repos
-KLIPPER_REPO=https://github.com/Klipper3d/klipper.git
-ARKSINE_REPO=https://github.com/Arksine/klipper.git
-DMBUTYUGIN_REPO=https://github.com/dmbutyugin/klipper.git
-DWC2FK_REPO=https://github.com/Stephan3/dwc2-for-klipper-socket.git
-KLIPPERSCREEN_REPO=https://github.com/jordanruthe/KlipperScreen.git
-NLEF_REPO=https://github.com/nlef/moonraker-telegram-bot.git
+KLIPPER_REPO=https://hub.fastgit.xyz/Klipper3d/klipper.git
+ARKSINE_REPO=https://hub.fastgit.xyz/Arksine/klipper.git
+DMBUTYUGIN_REPO=https://hub.fastgit.xyz/dmbutyugin/klipper.git
+DWC2FK_REPO=https://hub.fastgit.xyz/Stephan3/dwc2-for-klipper-socket.git
+KLIPPERSCREEN_REPO=https://hub.fastgit.xyz/jordanruthe/KlipperScreen.git
+NLEF_REPO=https://hub.fastgit.xyz/nlef/moonraker-telegram-bot.git
 #branches
 BRANCH_SCURVE_SMOOTHING=dmbutyugin/scurve-smoothing
 BRANCH_SCURVE_SHAPING=dmbutyugin/scurve-shaping

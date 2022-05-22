@@ -2,7 +2,7 @@
 SYSTEMDDIR="/etc/systemd/system"
 MOONRAKER_ENV="${HOME}/moonraker-env"
 MOONRAKER_DIR="${HOME}/moonraker"
-MOONRAKER_REPO="https://github.com/Arksine/moonraker.git"
+MOONRAKER_REPO="https://hub.fastgit.xyz/Arksine/moonraker.git"
 
 system_check_moonraker(){
   ### python 3 check
@@ -302,8 +302,8 @@ print_mr_ip_list(){
 }
 
 ### introduced due to
-### https://github.com/Arksine/moonraker/issues/349
-### https://github.com/Arksine/moonraker/pull/346
+### https://hub.fastgit.xyz/Arksine/moonraker/issues/349
+### https://hub.fastgit.xyz/Arksine/moonraker/pull/346
 moonraker_polkit(){
   SYSTEMDDIR="/etc/systemd/system"
   MOONRAKER_SERVICES=$(find "$SYSTEMDDIR" -regextype posix-extended -regex "$SYSTEMDDIR/moonraker(-[^0])?[0-9]*.service")

@@ -320,7 +320,7 @@ get_fluidd_ver(){
 
 mainsail_setup(){
   ### get mainsail download url
-  MAINSAIL_DL_URL=$(curl -s $MAINSAIL_REPO_API | grep browser_download_url | cut -d'"' -f4 | head -1)
+  MAINSAIL_DL_URL=$(curl -s $MAINSAIL_REPO_API | grep browser_download_url | cut -d'"' -f4 | head -1 | sed 's/github.com/download.fastgit.org/g')
 
   ### remove existing and create fresh mainsail folder, then download mainsail
   [ -d "$MAINSAIL_DIR" ] && rm -rf "$MAINSAIL_DIR"
@@ -349,7 +349,7 @@ enable_mainsail_remotemode(){
 
 fluidd_setup(){
   ### get fluidd download url
-  FLUIDD_DL_URL=$(curl -s $FLUIDD_REPO_API | grep browser_download_url | cut -d'"' -f4 | head -1)
+  FLUIDD_DL_URL=$(curl -s $FLUIDD_REPO_API | grep browser_download_url | cut -d'"' -f4 | head -1 | sed 's/github.com/download.fastgit.org/g')
 
   ### remove existing and create fresh fluidd folder, then download fluidd
   [ -d "$FLUIDD_DIR" ] && rm -rf "$FLUIDD_DIR"
